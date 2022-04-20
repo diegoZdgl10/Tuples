@@ -85,7 +85,7 @@ public class Dupla<E> implements Tupla<E> {
     /**
      * Invierte los valores de la tupla, empezando en el ultimo y terminando en el primero.
      */
-    public void invertirValore() {
+    public void invertirValores() {
         E auxiliar = this.elementoX;
         this.elementoX = this.elementoY;
         this.elementoY = auxiliar;
@@ -98,14 +98,24 @@ public class Dupla<E> implements Tupla<E> {
      * @param posicionJ el inidice del valor den la posicion J.
      */
     public void intercambiarValores(int posicionI, int posicionJ) {
-        throw new java.lang.UnsupportedOperationException("Opeacion no soportada.");
+        if (posicionI != 0 || posicionI != 1) {
+            return;
+        }
+        if (posicionJ != 0 || posicionJ != 1) {
+            return;
+        }
+        if (posicionI == posicionJ) {
+            return;
+        }
+        invertirValores();
+        //throw new java.lang.UnsupportedOperationException("Opeacion no soportada.");
     }
 
     /**
      * Coloca el valor de la posicion X en la posicion Y y biceversa.
      */
     public void intercambiarValores() {
-        invertirValore();
+        invertirValores();
     }
 
     /**

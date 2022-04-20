@@ -107,7 +107,7 @@ public class Tripleta<E> implements Tupla<E> {
     /**
      * Invierte los valores de la tupla, empezando en el ultimo y terminando en el primero.
      */
-    public void invertirValore() {
+    public void invertirValores() {
         E auxiliar = this.elementoX;
         this.elementoX = this.elementoZ;
         this.elementoZ = auxiliar;

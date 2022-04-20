@@ -15,7 +15,7 @@ public interface Tupla<E> {
     /**
      * Invierte los valores de la tupla, empezando en el ultimo y terminando en el primero.
      */
-    public void invertirValore();
+    public void invertirValores();
 
     /**
      * Coloca el valor de la posicion I en la posicion J y biceversa.
