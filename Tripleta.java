@@ -9,11 +9,11 @@ import java.util.ArrayList;
 public class Tripleta<E> implements Tupla<E> {
 
     /* Elemento en la posicion X. */
-    E elementoX;
+    private E elementoX;
     /* Elemento en la posicion Y. */
-    E elementoY;
+    private E elementoY;
     /* Elemento en la posicion Z. */
-    E elementoZ;
+    private E elementoZ;
 
     /**
      * Constructor que recibe los elementos que estaran en la posicion X, Y, Z.

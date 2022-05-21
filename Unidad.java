@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Unidad<E> implements Tupla<E> {
 
     /* Elemento de la unidad. */
-    E elemento;
+    private E elemento;
 
     /**
      * Constructor que recibe los elementos que estaran de la unidad.

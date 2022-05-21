@@ -3,6 +3,7 @@ import java.util.List;
 /**
  * Interfaz para tuplas, una tupla debe de poder representarse como lista,
  * invertir los valores e intercambiar valores segun su indice.
+ * @author Zamora Cruz Diego Arturo
  */
 public interface Tupla<E> {
 

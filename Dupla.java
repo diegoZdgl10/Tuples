@@ -9,9 +9,9 @@ import java.util.ArrayList;
 public class Dupla<E> implements Tupla<E> {
 
     /* Elemento en la posicion X. */
-    E elementoX;
+    private E elementoX;
     /* Elemento en la posicion Y. */
-    E elementoY;
+    private E elementoY;
 
     /**
      * Constructor que recibe los elementos que estaran en la posicion X y Y.
